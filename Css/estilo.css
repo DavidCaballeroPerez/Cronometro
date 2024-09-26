@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  background-color: bisque;
+}
+
+.container {
+  min-height: 400px;
+  max-width: 600px;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+  border: solid 3px black;
+}
+
+.container-button {
+  padding: 25px;
+}
+
+.boton {
+  width: 120px;
+  height: 120px;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+#btnInicio {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+#btnInicio:hover {
+  background-color: darkgrey;
+}
+
+#btnPausa {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+#btnPausa:hover {
+  background-color: darkgrey;
+}
+
+#btnReset {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+#btnReset:hover {
+  background-color: darkgrey;
+}
+
+#cronometro {
+  width: 100%;
+  height: 100%;
+  font-size: 90px;
+  margin-bottom: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font: bold;
+}
